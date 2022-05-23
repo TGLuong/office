@@ -64,4 +64,25 @@
   background-color: #63bc12;
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  .list_nav {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      color: white;
+      padding: 0px 30px;
+
+      &:after {
+        content: "";
+        width: 3px;
+        height: 30px;
+        background-color: white;
+        z-index: 10;
+        position: absolute;
+        transform: translate(30px, -2px);
+      }
+    }
+  }
 }
