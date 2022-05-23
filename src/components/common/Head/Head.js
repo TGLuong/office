@@ -58,16 +58,18 @@ const Head = () => {
           </div>
         </div>
       </div>
-      <div className={classnames(styles.nav_bar)}>
-        <ul className={classnames(styles.list_nav)}>
-          <li><b>TRANG CHỦ</b></li>
-          <li><b>GIỚI THIỆU</b></li>
-          <li><b>DỊCH VỤ</b></li>
-          <li><b>TIỆN ÍCH</b></li>
-          <li><b>TIN TỨC</b></li>
-          <li><b>THÀNH LẬP DOANH NGHIỆP</b></li>
-          <li><b>LIÊN HỆ</b></li>
-        </ul>
+      <div style={{position: 'relative'}}>
+        <div className={classnames(styles.nav_bar)}>
+          <ul className={classnames(styles.list_nav)}>
+            <li><b>TRANG CHỦ</b></li>
+            <li><b>GIỚI THIỆU</b></li>
+            <li><b>DỊCH VỤ</b></li>
+            <li><b>TIỆN ÍCH</b></li>
+            <li><b>TIN TỨC</b></li>
+            <li><b>THÀNH LẬP DOANH NGHIỆP</b></li>
+            <li><b>LIÊN HỆ</b></li>
+          </ul>
+        </div>
       </div>
     </>
   )

@@ -1,0 +1,27 @@
+$base-color: #63bc12;
+
+.container {
+  width: 240px;
+  height: 200px;
+  display: flex;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .info {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: $base-color, $alpha: .8);
+
+    .content {
+      color: white;
+    }
+  }
+}
