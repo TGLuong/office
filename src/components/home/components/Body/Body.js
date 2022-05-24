@@ -2,6 +2,13 @@ import styles from './BodyStyle.module.scss'
 import classnames from 'classnames'
 import ServiceBox from '../ServiceBox/ServiceBox'
 
+import {
+  Button,
+  Icon
+} from '@chakra-ui/react'
+
+import {BsArrowRightCircle} from 'react-icons/bs'
+
 
 
 const Body = () => {
@@ -48,6 +55,18 @@ const Body = () => {
         <div className={classnames(styles.about)}>
           <div className={classnames(styles.about_background)}>
             <img src='/images/about_background.jpg' />
+          </div>
+          <div className={styles.about_modal}>
+            <h3>VỀ CHÚNG TÔI</h3>
+            <h1>OFFICE</h1>
+            <div className={styles.line}></div>
+            <p>
+              Các cá nhân và tổ chức muốn có một văn phòng đại diện với chi phí thấp thường lựa chọn 
+              giải pháp này. Thuê văn phòng đại diện sẽ giúp cho doanh nghiệp vừa có một văn phòng hiện đại bậc 
+              nhất vừa giảm tối đa chi phí và nhân lực cho những bộ phận ngoài hoạt động cốt lõi của doanh nghiệp. Các giám 
+              đốc doanh nghiệp với quy mô nhỏ,
+            </p>
+            <Button leftIcon={<Icon as={BsArrowRightCircle}/>} style={{backgroundColor: '#63bc12', color: 'white'}}>CHI TIÊT</Button>
           </div>
         </div>
       </div>
